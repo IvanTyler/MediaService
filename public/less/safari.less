@@ -1,0 +1,24 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    ::i-block-chrome, .main {
+        display: block;
+        ::i-block-chrome, &__border-top,
+        ::i-block-chrome, &__border-bottom {
+            display: block;
+            ::i-block-chrome, &::before {
+                float: left;
+            }
+            ::i-block-chrome, &::after {
+                float: right;
+            }
+        }
+        ::i-block-chrome, &__content {
+            display: table;
+            width: 100%;
+            height: 89.2%;
+        }
+        ::i-block-chrome, &__border-left,
+        ::i-block-chrome, &__border-right {
+            display: table-cell;
+        }
+    }
+}
