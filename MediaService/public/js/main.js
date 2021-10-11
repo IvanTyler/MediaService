@@ -2,7 +2,7 @@ console.log('js work')
 
 const $extraOptionsTitle = document.querySelector('.extra-options-title')
 const $windowExtraOptions = document.querySelector('.window-extra-options')
-const $closeWindowExtraOptions = document.querySelector('.window-extra-options__close-window')
+
 
 $extraOptionsTitle.addEventListener('click', function() {
     if ($windowExtraOptions.classList.contains('hide')) {
@@ -10,10 +10,6 @@ $extraOptionsTitle.addEventListener('click', function() {
     } else {
         $windowExtraOptions.classList.add('hide')
     }
-})
-
-$closeWindowExtraOptions.addEventListener('click', function() {
-    $windowExtraOptions.classList.add('hide')
 })
 
 const $nameUser = document.querySelector('#nameUser')

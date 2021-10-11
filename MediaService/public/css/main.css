@@ -209,41 +209,9 @@ body {
   top: 0;
   width: 461px;
 }
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options {
-    right: 0;
-    left: 0;
-    width: 100%;
-  }
-}
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options {
-    left: calc(50% - 150px);
-  }
-}
-.main__content-center .form-registration__extra-options .window-extra-options__close-window {
-  display: none;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 15px;
-  height: 15px;
-  filter: invert(100%);
-  cursor: pointer;
-}
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__close-window {
-    display: inline-block;
-  }
-}
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-top {
   display: flex;
   align-items: flex-end;
-}
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__border-img-top {
-    display: none;
-  }
 }
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-top::before,
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-top::after {
@@ -271,11 +239,6 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__border-img-bottom {
-    display: none;
-  }
-}
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-bottom::before,
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-bottom::after {
   content: '';
@@ -296,36 +259,11 @@ body {
 .main__content-center .form-registration__extra-options .window-extra-options__content {
   display: flex;
 }
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__content {
-    max-width: 300px;
-  }
-}
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__border-img-left {
-    display: none;
-  }
-}
 .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth {
-  position: relative;
   flex-grow: 1;
   background-image: url('https://kovcheg.apeha.ru/i/registration/middle_scrol.jpg');
   background-repeat: repeat;
   padding: 0 5px 0;
-}
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth {
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 7px 0 rgba(0, 0, 0, 0.3);
-    transform: translateY(-47%);
-    z-index: 3;
-  }
-}
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth {
-    transform: translateY(-30%);
-  }
 }
 .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth {
   display: -webkit-box;
@@ -392,47 +330,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item {
-    background-image: none;
-    background-color: #f4c871;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.7);
-  }
-}
 .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item:nth-child(2) {
   background-image: url(../img/button-date-of-birth2.jpg);
   width: 120px;
 }
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item:nth-child(2) {
-    background-image: none;
-    width: 150px;
-  }
-}
 .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item:not(:last-child) {
   margin-right: 10px;
-}
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item:not(:last-child) {
-    margin-right: 0;
-  }
-}
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth__select-item {
-    margin-top: 10px;
-    width: 150px;
-  }
-}
-@media (max-width: 530px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth {
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
 }
 .main__content-center .form-registration__extra-options .window-extra-options__title {
   margin-top: 10px;
@@ -442,11 +345,6 @@ body {
 }
 .main__content-center .form-registration__extra-options .window-extra-options__border-img-right {
   transform: translateX(-1px);
-}
-@media (max-width: 1120px) {
-  .main__content-center .form-registration__extra-options .window-extra-options__border-img-right {
-    display: none;
-  }
 }
 .main__content-center .form-registration__extra-options .window-extra-options.hide {
   display: none;
