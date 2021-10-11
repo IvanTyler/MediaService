@@ -10,6 +10,11 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+@media (max-width: 470px) {
+  .container {
+    padding: 0 10px;
+  }
+}
 body {
   background-image: url('https://kovcheg.apeha.ru/i/middle_list.jpg');
 }
@@ -135,6 +140,12 @@ body {
   margin-right: 15px;
   max-width: 570px;
 }
+@media (max-width: 1120px) {
+  .main__content-center {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 .main__content-center .img-name-registration {
   width: 100%;
 }
@@ -221,6 +232,11 @@ body {
     left: calc(50% - 150px);
   }
 }
+@media (max-width: 470px) {
+  .main__content-center .form-registration__extra-options .window-extra-options {
+    left: 0;
+  }
+}
 .main__content-center .form-registration__extra-options .window-extra-options__close-window {
   display: none;
   position: absolute;
@@ -301,6 +317,11 @@ body {
     max-width: 300px;
   }
 }
+@media (max-width: 470px) {
+  .main__content-center .form-registration__extra-options .window-extra-options__content {
+    max-width: 100%;
+  }
+}
 @media (max-width: 1120px) {
   .main__content-center .form-registration__extra-options .window-extra-options__border-img-left {
     display: none;
@@ -325,6 +346,11 @@ body {
 @media (max-width: 530px) {
   .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth {
     transform: translateY(-30%);
+  }
+}
+@media (max-width: 470px) {
+  .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth {
+    transform: translateY(-26%);
   }
 }
 .main__content-center .form-registration__extra-options .window-extra-options__date-of-birth .wrapper-date-of-birth {
